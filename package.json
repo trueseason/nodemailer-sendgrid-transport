@@ -1,0 +1,15 @@
+{
+  "name": "nodemailer-sendgrid-transport",
+  "version": "0.1.0",
+  "description": "Nodemailer SendGrid transport",
+  "main": "src/nodemailer-sendgrid-transport.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueseason/nodemailer-sendgrid-transport.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "proxy-agent": "^4.0.1"
+  },
+  "devDependencies": {}
+}
