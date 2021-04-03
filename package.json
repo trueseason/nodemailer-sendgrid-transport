@@ -1,15 +1,27 @@
 {
-  "name": "nodemailer-sendgrid-transport",
+  "name": "@singtone/nodemailer-sendgrid-transport",
   "version": "0.1.0",
   "description": "Nodemailer SendGrid transport",
-  "main": "src/nodemailer-sendgrid-transport.js",
+  "main": "lib/nodemailer-sendgrid-transport.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trueseason/nodemailer-sendgrid-transport.git"
+    "url": "git+https://github.com/trueseason/nodemailer-sendgrid-transport.git"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "proxy-agent": "^4.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/trueseason/nodemailer-sendgrid-transport/issues"
+  },
+  "homepage": "https://github.com/trueseason/nodemailer-sendgrid-transport#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Xu",
+  "license": "MIT"
 }
