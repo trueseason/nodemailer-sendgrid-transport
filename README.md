@@ -16,7 +16,7 @@ Support SendGrid options of *categories, send_at, batch_id,asm, ip_pool_name, ma
 
 ```javascript
 var nodemailer = require('nodemailer');
-var sgTransport = require('@johnx/nodemailer-sendgrid-transport');
+var sgTransport = require('@singtone/nodemailer-sendgrid-transport');
 
 var options = {
 	auth: {
