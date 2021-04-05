@@ -1,7 +1,7 @@
 # nodemailer-sendgrid-transport
 
 This repository is a nodemailer transport plugin sending email via SendGrid's V3 REST API.  
-Support SendGrid options such as categories, tracking configuration or send-by-schedule etc.  
+Support SendGrid options such as categories, tracking settings or send_at etc.  
 Support http, https, socks4 or socks5 proxy.
 
 ## dependencies
@@ -12,7 +12,7 @@ proxy-agent
   
 Install via npm.  
   
-Support SendGrid options of *categories, send_at, batch_id,asm, ip_pool_name, mail_settings, tracking_settings*
+Support SendGrid options of *categories, send_at, batch_id, asm, ip_pool_name, mail_settings, tracking_settings*
 
 ```javascript
 var nodemailer = require('nodemailer');
@@ -40,7 +40,7 @@ var email = {
 		filename: 'text1.txt',
 		content: 'aGVsbG8gd29ybGQh',
 		encoding: 'base64'
-	}
+	},
 	sendGrid: {  //optional SendGrid Options
 		"categories": [
 			"cake",
