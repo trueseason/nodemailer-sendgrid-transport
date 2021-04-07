@@ -2,7 +2,7 @@
   "name": "@singtone/nodemailer-sendgrid-transport",
   "version": "0.1.3",
   "description": "A nodemailer transport plugin sending email via SendGrid's V3 REST API; Support SendGrid options such as categories, tracking settings or send_at etc; Support http, https, socks4 or socks5 proxy.",
-  "main": "lib/nodemailer-sendgrid-transport.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trueseason/nodemailer-sendgrid-transport.git"
